@@ -9,7 +9,7 @@ public class crawling {
 
 	public static void main(String[] args) {
 		
-		String URL = "https://github.com/IMjaeyongpark/2022/blob/main/2-2/Basic%20Project2/project/data";
+		String URL = "https://github.com/LEETAESEUNG/Subway-project/blob/master/%EC%A7%80%ED%95%98%EC%B2%A0%EB%85%B8%EC%84%A0(1).txt";
 		try {
 			Document document = Jsoup.connect(URL).get();
 			
