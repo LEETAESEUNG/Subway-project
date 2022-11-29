@@ -23,7 +23,6 @@ public class crawling {
 		}catch (IOException e) {
             e.printStackTrace();
         }
-
 	}
 
 }
