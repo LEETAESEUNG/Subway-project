@@ -16,7 +16,7 @@ public class crawling {
 			Elements imageUrlElements = document.getElementsByClass("Box-body p-0 blob-wrapper data type-text  gist-border-0");
 			Elements subElements = document.select("td");
 			
-			for (int j = 0; j < subElements.size(); j++) {
+			for (int i = 0; i < subElements.size(); i++) {
                 String sub = subElements.get(j).text();
                 System.out.println(sub);
             }
